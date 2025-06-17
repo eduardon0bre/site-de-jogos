@@ -65,6 +65,7 @@ nav a:hover {
 .game-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ad69ff41 30%, #14012941 100%);
 }
 
 .game-card a {
@@ -147,6 +148,9 @@ nav a:hover {
     font-size: 1em;
     outline: none;
     transition: all 0.3s;
+    height: 25px;
+    margin-top: 20px; /* Empurra para baixo */
+
 }
 
 .search-input:focus {
@@ -154,22 +158,24 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(106, 0, 255, 0.5);
 }
 
-.search-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+.search-input:hover {
+    background: linear-gradient(135deg, #ad69ff41 30%, #ad69ff41 100%);
 }
 
 .search-btn {
-    width: 50px;
     background: linear-gradient(135deg, #2a0755 0%, #0f0020 100%);
     color: white;
     border: none;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
     transition: all 0.3s;
+    height: 50px;
+    margin-top: 20px; /* Empurra para baixo */
+    padding: 0 15px;
 }
 
 .search-btn:hover {
-    background: linear-gradient(135deg, #370e69 0%, #140129 100%);
+    background: linear-gradient(135deg, #370e69 30%, #0f0020 100%);
 }
 
 /* Para telas pequenas */
