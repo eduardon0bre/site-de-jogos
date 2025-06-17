@@ -78,8 +78,6 @@ nav a:hover {
 }
 
 
-/* drop button */
-/* Estilos para o dropdown de categorias */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -96,6 +94,9 @@ nav a:hover {
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 1em;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .dropbtn:hover {
@@ -103,14 +104,17 @@ nav a:hover {
 }
 
 .dropdown-content {
-    display: none;
     position: absolute;
     background-color: #2a0755;
-    min-width: 160px;
+    min-width: 142px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 4px;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: all 0.3s ease;
 }
 
 .dropdown-content a {
@@ -125,8 +129,20 @@ nav a:hover {
     background-color: #3d0b7a;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown.active .dropdown-content {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.dropdown.active .arrow {
+    transform: rotate(180deg);
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
 }
 
 /* BARRA DE PESQUISA */
