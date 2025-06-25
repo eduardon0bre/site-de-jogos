@@ -55,6 +55,8 @@ body {
 }
 
 .container {
+    z-index: 2;
+    position: relative;
     background: var(--container-background);
     padding: 25px;
     border-radius: 55px;
@@ -62,6 +64,35 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.1);
     width: fit-content;
     margin: 20px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header-gradient {
+    background: linear-gradient(135deg, #373763 0%, transparent 34%);
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.back-button {
+    background: none;
+    color: white;
+    font-size: 24px;
+    padding: 31px 150px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.back-button:hover {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, transparent 85%);
 }
 
 h1 {
@@ -130,12 +161,10 @@ h1 {
     border-radius: var(--border-radius-small);
     transition: background-color 0.15s ease, transform 0.1s ease, filter 0.15s ease;
     position: relative;
-    background-image: 
-        linear-gradient(
-            to bottom right,
+    background-image:
+        linear-gradient(to bottom right,
             rgba(255, 255, 255, 0.05),
-            rgba(0, 0, 0, 0.05)
-        );
+            rgba(0, 0, 0, 0.05));
 }
 
 /* ========================== */
@@ -151,11 +180,12 @@ h1 {
 /* ========================== */
 /* Padrão quadriculado avançado para desktop */
 @media (min-width: 600px) {
+
     .board-row:nth-child(odd) .cell:nth-child(odd),
     .board-row:nth-child(even) .cell:nth-child(even) {
         background-color: var(--cell-color-1);
     }
-    
+
     .board-row:nth-child(odd) .cell:nth-child(even),
     .board-row:nth-child(even) .cell:nth-child(odd) {
         background-color: var(--cell-color-2);
@@ -307,6 +337,7 @@ select:focus {
         opacity: 0;
         transform: scale(0.9);
     }
+
     to {
         opacity: 1;
         transform: scale(1);
@@ -356,6 +387,7 @@ select:focus {
     .cell:nth-child(odd) {
         background-color: var(--cell-color-1);
     }
+
     .cell:nth-child(even) {
         background-color: var(--cell-color-2);
     }
