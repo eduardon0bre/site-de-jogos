@@ -149,7 +149,6 @@ h1 {
 }
 
 /* ========================== */
-/* Estilos das células com padrão quadriculado */
 .cell {
     width: 32px;
     height: 32px;
@@ -168,7 +167,6 @@ h1 {
 }
 
 /* ========================== */
-/* Padrão quadriculado básico */
 .cell:nth-child(odd) {
     background-color: var(--cell-color-1);
 }

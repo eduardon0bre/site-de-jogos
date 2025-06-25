@@ -2,12 +2,12 @@ body {
     font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1a0033 0%, #0f0020 100%);
+    background: #1a1a2e;
     color: #fff;
 }
 
 header {
-    background: linear-gradient(135deg, #1a0033 0%, #0f0020 100%);
+    background: #1a1a2e;
     color: #fff;
     padding: 15px 3%;
     text-align: left;
@@ -32,7 +32,7 @@ header {
 .header-logo:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #ad69ff41 30%, #14012941 100%);
+    background: linear-gradient(135deg, #1a1a2e 30%, #1a1a2e 100%);
 }
 
 header h1 {
@@ -43,7 +43,7 @@ header h1 {
 }
 
 nav {
-    background: #0f0020;
+    background: #141427;
     padding: 15px 0;
 }
 
@@ -57,14 +57,14 @@ nav {
 main {
     padding: 40px 20px;
     min-height: 60vh;
-    background: linear-gradient(135deg, #1a0033 -10%, #0f0020 100%);
+    background: #1a1a2e;
 
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #0f0020;
+    background: #141427;
     color: #fff;
     margin-top: 40px;
     font-size: 0.9em;
