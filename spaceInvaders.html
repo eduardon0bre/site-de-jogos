@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="public/spaceInvaders/spaceInvadersCSS/spaceInvadersStart.css">
+</head>
+
+<body>
+    <div class="lobby-container" id="lobby-container">
+        <div class="game-container">
+            <h1 class="tittle">SPACE INVADERS</h1>
+
+            <div class="start-container">
+                <button class="btn start-button" id="start-button">🚀 Start Game</button>
+            </div>
+
+            <div class="secondary-buttons-container">
+                <button class="btn" id="briefingBtn">✨ Instruções da Missão</button>
+                <button class="btn" id="highscoresBtn">🏆 Recordes</button>
+                <button class="btn" id="instructionsBtn">📖 Instruções</button>
+                <button class="btn" id="levelMapBtn">🗺️ Mapa de Níveis</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="aiModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle" class="modal-title">Awaiting Transmission...</h2>
+            <div id="modalBody" class="modal-body">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-screen" id="game-screen">
+        <div class="game-header">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 1</div>
+            <div id="lives">Lives: 3</div>
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <div class="game-controls">
+            <button class="btn" id="pauseBtn">⏸️ Pause</button>
+            <button class="btn" id="backBtn">🔙 Back to Menu</button>
+        </div>
+    </div>
+
+    <script src="config/apiKey.js"></script> 
+    <script type="module" src="public/spaceInvaders/spaceInvadersJS/spaceInvadersMain.js"></script>
+</body>
+
+</html>
