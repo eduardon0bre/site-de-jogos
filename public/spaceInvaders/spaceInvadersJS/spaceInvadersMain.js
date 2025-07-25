@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Elementos do DOM
     const startButton = document.getElementById('start-button');
-    const lobbyContainer = document.getElementById('lobby-container'); // Corrigido
+    const lobbyContainer = document.getElementById('lobby-container');
     const gameScreen = document.getElementById('game-screen');
     const canvas = document.getElementById('game-canvas');
     const ctx = canvas.getContext('2d');
