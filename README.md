@@ -24,3 +24,4 @@ Por ser um projeto front-end estático por enquanto, não há necessidade de um 
     ```
 2.  Navegue até o diretório do projeto.
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
+4.  Tambem é possivel ultilizar o github pages `https://eduardon0bre.github.io/site-de-jogos/`.
