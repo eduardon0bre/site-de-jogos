@@ -25,7 +25,7 @@ nav a:hover {
 }
 
 .game-card {
-    background: linear-gradient(145deg, #1a1a2e 0%, #141427 80%);
+    background: linear-gradient(145deg, #11111f 0%, #141427 80%);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
