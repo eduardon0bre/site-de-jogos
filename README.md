@@ -4,8 +4,6 @@ Este é um projeto de um site de jogos simples, criado com o objetivo de aprimor
 
 ## 🎮 Sobre o Projeto
 
-O "Site de Jogos" é uma plataforma web que hospeda jogos clássicos desenvolvidos com tecnologias web padrão.
-
 <div align="left">
 <img src="https://github.com/user-attachments/assets/37c38b31-57a8-413b-a204-5042294f6cdc" width="500px" />
  <img src="https://github.com/user-attachments/assets/18de72ea-1569-47e9-a2df-5fa6a435caf0" width="500px" />
@@ -14,8 +12,8 @@ O "Site de Jogos" é uma plataforma web que hospeda jogos clássicos desenvolvid
 
 ## ✨ Tecnologias Utilizadas
 
-  * **HTML5:** Para a estrutura e semântica das páginas.
-  * **CSS3:** Para a estilização e design dos componentes visuais.
+  * **HTML:** Para a estrutura e semântica das páginas.
+  * **CSS:** Para a estilização e design dos componentes visuais.
   * **JavaScript:** Para a lógica dos jogos e interatividade do site.
 
 ## 🚀 Como Executar
