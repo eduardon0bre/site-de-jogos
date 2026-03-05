@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Snake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/snake/snakeCss/snake.css">
+</head>
+<body>
+    <div class="header-gradient">
+        <a href="index.html" style="text-decoration: none;">
+            <button class="back-button">Voltar</button>
+        </a>
+    </div>
+
+    <main class="game-container">
+        <h1 class="title">CYBER SNAKE</h1>
+        
+        <div class="score-board">
+            <span id="score">Score: 0</span>
+            <span id="highScore">High Score: 0</span>
+        </div>
+
+        <canvas id="game-canvas" width="400" height="400"></canvas>
+
+        <div class="controls-hint">
+            <p>Use as <strong>Setas do Teclado</strong> ou <strong>W A S D</strong> para mover.</p>
+            <p>Pressione <strong>Espaço</strong> para Iniciar/Pausar.</p>
+        </div>
+    </main>
+
+    <script src="public/snake/snakeJs/snake.js"></script>
+</body>
+</html>
