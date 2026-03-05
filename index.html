@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto sem nome</title>
-    <link rel="stylesheet" href="public/index/indexCSS/componentesIndex.css">
+    <title>Arcade Espacial</title>
     <link rel="stylesheet" href="public/index/indexCSS/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
     <script src="public/index/indexJs/dropdown.js" defer></script>
 </head>
 
@@ -19,10 +18,12 @@
                 <a href="index.html">
                     <img src="public/imagem/logo.png" alt="Logo" class="header-logo">
                 </a>
-                <input type="text" placeholder="Buscar jogos..." class="search-input">
-                <button class="search-btn">
-                    <i class="bi bi-search"></i>
-                </button>
+                <div class="search-input-wrapper">
+                    <input type="text" placeholder="Buscar jogos no radar..." class="search-input">
+                    <button class="search-btn">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -32,49 +33,54 @@
             <div class="dropdown">
                 <button class="dropbtn">Categorias <span class="arrow">▼</span></button>
                 <div class="dropdown-content">
-                    <a href="#">Aventura</a>
-                    <a href="#">Puzzle</a>
-                    <a href="#">Estratégia</a>
-                    <a href="#">Clássicos</a>
+                    <a href="#">🚀 Aventura</a>
+                    <a href="#">🧩 Puzzle</a>
+                    <a href="#">🎯 Estratégia</a>
+                    <a href="#">👾 Clássicos</a>
                 </div>
             </div>
         </div>
     </nav>
+
     <main>
         <div class="games-container">
             <div class="game-card">
                 <a href="campoMinado.html" class="game-link">
-                    <img src="public/imagem/campoMinado.jpg" alt="Ícone do jogo Campo Minado" class="game-image">
-                    <span class="game-title">Campo Minado</span>
-
+                    <img src="public/imagem/campoMinado.jpg" alt="Campo Minado" class="game-image">
+                    <span class="game-title">Minesweeper</span>
                 </a>
             </div>
 
             <div class="game-card">
                 <a href="spaceInvaders.html" class="game-link"> 
-                    <img src="public/imagem/spaceInvadersLogo.jpg" alt="Ícone do jogo Space Invaders" class="game-image">
+                    <img src="public/imagem/spaceInvadersLogo.jpg" alt="Space Invaders" class="game-image">
                     <span class="game-title">Space Invaders</span>
                 </a>
             </div>
             
             <div class="game-card">
                 <a href="cobrinha.html" class="game-link"> 
-                    <img src="public/imagem/snake.jpg" alt="Ícone do jogo Snake" class="game-image">
-                    <span class="game-title">Snake Space</span>
+                    <img src="public/imagem/snake.jpg" alt="Snake" class="game-image">
+                    <span class="game-title">Cyber Snake</span>
                 </a>
             </div>
+
             <div class="game-card">
-                <h2>Jogo</h2>
-                <a href="jogo4.html">Jogo 4</a>
+                <a href="jogo4.html" class="game-link">
+                    <div class="game-image placeholder-img"><i class="bi bi-controller"></i></div>
+                    <span class="game-title">Em Breve</span>
+                </a>
             </div>
         </div>
     </main>
+
     <footer>
         <div class="footer-container">
-            <p>&copy; 2025 Projeto sem nome. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Estação Orbital. Todos os direitos reservados.</p>
             <div class="social-icons">
                 <a href="https://github.com/eduardon0bre"><i class="bi bi-github"></i></a>
             </div>
         </div>
     </footer>
 </body>
+</html>
