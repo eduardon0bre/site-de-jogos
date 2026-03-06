@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Define dificuldade
         switch (difficultySelect.value) {
-            case 'easy': BOARD_SIZE = 11; NUM_MINES = 18; break;
+            case 'easy': BOARD_SIZE = 11; NUM_MINES = 20; break;
             case 'medium': BOARD_SIZE = 17; NUM_MINES = 40; break;
             case 'hard': BOARD_SIZE = 21; NUM_MINES = 99; break;
         }
