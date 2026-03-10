@@ -20,4 +20,4 @@ Este é um projeto de um site de jogos simples, criado com o objetivo de aprimor
 
 Por ser um projeto front-end estático por enquanto, não há necessidade de um processo de build complexo. Para visualizar e interagir com o site:
 
-`https://eduardon0bre.github.io/site-de-jogos/`.
+<a href="https://eduardon0bre.github.io/site-de-jogos/">Clique aqui para acessar o site de jogos</a>
