@@ -7,7 +7,8 @@
     <title>Arcade Espacial</title>
     <link rel="stylesheet" href="public/index/indexCSS/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
     <script src="public/index/indexJs/dropdown.js" defer></script>
 </head>
 
@@ -36,7 +37,6 @@
                     <a href="#">🚀 Aventura</a>
                     <a href="#">🧩 Puzzle</a>
                     <a href="#">🎯 Estratégia</a>
-                    <a href="#">👾 Clássicos</a>
                 </div>
             </div>
         </div>
@@ -44,28 +44,28 @@
 
     <main>
         <div class="games-container">
-            <div class="game-card">
+            <div class="game-card" data-category="puzzle estratégia">
                 <a href="campoMinado.html" class="game-link">
                     <img src="public/imagem/campoMinado.jpg" alt="Campo Minado" class="game-image">
                     <span class="game-title">Minesweeper</span>
                 </a>
             </div>
 
-            <div class="game-card">
-                <a href="spaceInvaders.html" class="game-link"> 
+            <div class="game-card" data-category="aventura">
+                <a href="spaceInvaders.html" class="game-link">
                     <img src="public/imagem/spaceInvadersLogo.jpg" alt="Space Invaders" class="game-image">
                     <span class="game-title">Space Invaders</span>
                 </a>
             </div>
-            
-            <div class="game-card">
-                <a href="cobrinha.html" class="game-link"> 
+
+            <div class="game-card" data-category="aventura">
+                <a href="cobrinha.html" class="game-link">
                     <img src="public/imagem/snake.jpg" alt="Snake" class="game-image">
                     <span class="game-title">Cyber Snake</span>
                 </a>
             </div>
 
-            <div class="game-card">
+            <div class="game-card" data-category="">
                 <a href="jogo4.html" class="game-link">
                     <div class="game-image placeholder-img"><i class="bi bi-controller"></i></div>
                     <span class="game-title">Em Breve</span>
