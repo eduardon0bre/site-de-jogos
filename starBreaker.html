@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Breaker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/starBreaker/starBreakerCss/starBreaker.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧱</text></svg>">
+</head>
+
+<body>
+    <div class="header-gradient">
+        <a href="index.html" style="text-decoration: none;">
+            <button class="back-button">Voltar</button>
+        </a>
+    </div>
+
+    <main class="game-container">
+        <h1 class="title">STAR BREAKER</h1>
+
+        <div class="score-board">
+            <span id="score">Score: 0</span>
+            <span id="level">Level: 1</span>
+            <span id="lives">Vidas: 3</span>
+        </div>
+
+        <canvas id="game-canvas"></canvas>
+
+        <div class="controls-hint">
+            <p>Use as <strong>Setas do Teclado</strong> ou <strong>A / D</strong> para mover o escudo.</p>
+            <p>Mova o <strong>Mouse</strong> para controle direto.</p>
+            <p>Pressione <strong>Espaço</strong> para Iniciar / Pausar.</p>
+        </div>
+    </main>
+
+    <script src="public/starBreaker/starBreakerJs/starBreaker.js"></script>
+</body>
+
+</html>
