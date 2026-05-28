@@ -16,6 +16,16 @@ Este é um projeto de um site de jogos simples, criado com o objetivo de aprimor
   * **CSS:** Para a estilização e design dos componentes visuais.
   * **JavaScript:** Para a lógica dos jogos e interatividade do site.
 
+## 🗂️ Estrutura de Pastas
+
+  * **public/**: Front-end estático (HTML e assets).
+  * **backend/**: Back-end em PHP puro.
+    * **public/**: Entrada pública do back-end (ex.: index.php futuramente).
+    * **src/**: Código PHP.
+    * **config/**: Configurações e variáveis de ambiente.
+    * **storage/**: Arquivos gerados em runtime.
+    * **vendor/**: Dependências (quando houver).
+
 ## 🚀 Como Executar
 
 Por ser um projeto front-end estático por enquanto, não há necessidade de um processo de build complexo. Para visualizar e interagir com o site:
