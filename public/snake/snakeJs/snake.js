@@ -3,7 +3,7 @@
  */
 const CONFIG = {
     GRID_SIZE: 20,
-    GAME_SPEED: 120,
+    GAME_SPEED: 33,
     CANVAS_SIZE: 400
 };
 
